@@ -1,0 +1,7 @@
+- Object Oriented Programming
+- Class
+      - skeleton or blueprint of an object
+      - how to create a class in Java
+- Object
+      - instance of a class.
+      - how do you create an object in Java
