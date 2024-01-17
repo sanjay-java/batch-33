@@ -9,6 +9,6 @@
 
 - Given an array numbers, write a function to move all 0's to the end of the array while maintaining the relative order of the non-zero elements.
 
-- Write a program to sort an integer array
+- Write a program to sort an integer array. Use your choice of sorting algorithm.
 
-- write a program to search an integer array
+- write a program to search an integer array. Use your choice of search algorithm.
