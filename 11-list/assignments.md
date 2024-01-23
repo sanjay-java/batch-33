@@ -1,9 +1,6 @@
 #### Given an ArrayList of Strings, write a program to traverse all elements of the list using
   - for loop
   - enhanced for loop
-  - iterator
-  - forEach
-  - parallel Stream
 
 #### Write a program to remove the last object in the ArrayList.
 
