@@ -1,0 +1,8 @@
+- anonymous inner classes
+- Functional Interface
+- Lmbda expressions
+- Default functional interfaces
+    - Function
+    - Predicate
+    - Consumer
+    - Supplier
