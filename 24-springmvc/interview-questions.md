@@ -1,0 +1,19 @@
+- What is Spring MVC?
+    - Spring MVC is a part of the larger Spring Framework that provides a model-view-controller architecture for building web applications in Java. It simplifies the development of web applications by providing components to handle web requests and responses.
+- Explain the architecture of Spring MVC.
+    - Spring MVC follows the MVC (Model-View-Controller) architecture pattern. The request first goes to the DispatcherServlet, which acts as the front controller. The DispatcherServlet then delegates the request to an appropriate Controller. The Controller processes the request, interacts with the Model to retrieve or manipulate data, and then selects an appropriate View to render the response. Finally, the View is rendered and returned to the client.
+- What are the main components of Spring MVC?
+    - The main components of Spring MVC are DispatcherServlet, Controller, HandlerMapping, ViewResolver, Model, and View.
+
+- How does the DispatcherServlet work in Spring MVC?
+    - The DispatcherServlet is the central component in Spring MVC. It receives incoming requests and dispatches them to the appropriate controller for handling. It then dispatches the response to the appropriate view for rendering.
+- What is the purpose of the Controller in Spring MVC?
+    - The Controller in Spring MVC is responsible for processing incoming requests, handling business logic, interacting with the Model to retrieve or update data, and selecting an appropriate view for rendering the response.
+- How do you map URLs to Controllers in Spring MVC?
+    - URLs are mapped to Controllers using the @RequestMapping annotation, where you specify the URL pattern that the Controller should handle.
+- What is the role of the ViewResolver in Spring MVC?
+    - The ViewResolver in Spring MVC is responsible for resolving logical view names to actual View implementations. It helps in selecting the appropriate view for rendering the response.
+- How does data binding work in Spring MVC?
+    - Data binding in Spring MVC is the process of mapping request parameters to the properties of a JavaBean object. This is typically done using the @ModelAttribute annotation or through the use of command objects.
+- Explain the role of the Model in Spring MVC.
+    - The Model in Spring MVC represents the data that the application works with. It is used to pass data between the Controller and the View.
