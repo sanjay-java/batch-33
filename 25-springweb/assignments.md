@@ -1,0 +1,3 @@
+- create a Rest Controller with the name BMIRestController that accepts POST requests at the path "/bmirest" with "height" and "weight" as request parameters and returns calculated bmi as a String.
+- Test it with Postman
+- Update this form [here](https://forms.gle/J69ZjUGezMSV3QqN7) after you are done.

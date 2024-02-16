@@ -1,0 +1,35 @@
+- Explain Dependency Injection (DI) in Spring.
+    - Dependency Injection is a design pattern used to reduce the coupling between classes by injecting dependencies externally rather than creating them within a class. In Spring, DI is achieved through constructor injection, setter injection, or field injection using annotations like @Autowired.
+- What is Inversion of Control (IoC) in Spring?
+    - Inversion of Control is a principle where the control of object creation and lifecycle management is shifted from the application code to the Spring container. In Spring, the container manages the creation and wiring of application objects, allowing developers to focus on business logic rather than managing object creation.
+- What are the different modules in Spring Framework?
+    - Spring Framework is organized into several modules such as:
+        - Core Container: Provides core functionality like dependency injection and IoC.
+        - Data Access/Integration: Supports JDBC, ORM frameworks like Hibernate, and data access abstractions.
+        - Web: Provides support for building web applications using Spring MVC and other web technologies.
+        - AOP (Aspect-Oriented Programming): Supports aspect-oriented programming for cross-cutting concerns.
+        - Testing: Provides support for testing Spring applications using JUnit or TestNG.
+
+- Explain different Spring bean scopes
+    - Singleton Scope: One bean instance per Spring container. Shared by all requests for that bean.
+    - Prototype Scope: New bean instance every time it's requested. Not managed by Spring after creation.
+    - Request Scope: New bean instance per HTTP request. Valid only in web applications.
+    - Session Scope: One bean instance per HTTP session. Valid only in web applications.
+    - Application Scope:  One bean instance per ServletContext. Valid only in web applications.
+
+- Explain the difference between singleton and prototype scopes in Spring.
+    - Singleton scope creates a single instance of a bean per Spring IoC container, while prototype scope creates a new instance every time a bean is requested. Singleton beans are shared throughout the application context, while prototype beans are not.
+- What are different annotations used in Spring.
+    - @Component: Marks a Java class as a Spring-managed component. Used to auto-detect and configure beans during component scanning.
+    - @Autowired: Marks a constructor, field, or method as to be autowired by Spring. Used for automatic dependency injection.
+    - @Configuration:   Indicates that a class declares one or more @Bean methods and may be processed by the Spring container to generate bean definitions.
+    - @Bean: Marks a method to produce a bean to be managed by the Spring container. Used within @Configuration classes.
+    - @ComponentScan:Enables scanning of components (classes annotated with @Component, @Service, @Repository, etc.) under the specified base packages.
+    - @Scope: Specifies the scope of a bean (e.g., singleton, prototype, request, session).
+    - @RestController: Combines @Controller and @ResponseBody. Used to create RESTful web services.
+    - @RequestMapping: Maps HTTP requests to handler methods of MVC and RESTful controllers.
+    - @Service: Indicates that a class is a service component in the service layer.
+    - @Repository: Indicates that a class is a repository component in the persistence layer.
+    - @Transactional: Marks a method or class for transaction management.
+    - @PostConstruct: Used on a method that needs to be executed after dependency injection is done to perform any initialization.
+    - @PreDestroy: Used on a method that needs to be executed just before a bean is destroyed by the Spring container.
